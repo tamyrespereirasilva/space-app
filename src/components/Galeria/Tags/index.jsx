@@ -36,7 +36,7 @@ const Tags = ({ setTag }) => {
         <BarraTags>
             <TituloTags>Busque por tags:</TituloTags>
             <Div>
-                {tags.map(tag => <Tag key={tag.id} onClick={() => setTag(tag.tag)}>{tag.titulo}</Tag>)}
+                {tags.map(tag => <Tag key={tag.id}>{tag.titulo}</Tag>)}
             </Div>
         </BarraTags>
     )
